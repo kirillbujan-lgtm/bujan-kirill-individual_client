@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bujan_kirill_individual_client/static/css/main.eab7aa88.css",
+    "main.js": "/bujan_kirill_individual_client/static/js/main.255bdc84.js",
+    "index.html": "/bujan_kirill_individual_client/index.html",
+    "main.eab7aa88.css.map": "/bujan_kirill_individual_client/static/css/main.eab7aa88.css.map",
+    "main.255bdc84.js.map": "/bujan_kirill_individual_client/static/js/main.255bdc84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eab7aa88.css",
+    "static/js/main.255bdc84.js"
+  ]
+}
