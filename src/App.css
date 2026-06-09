@@ -1,0 +1,153 @@
+body {
+  background: linear-gradient(to bottom right, #04014a, #52009e);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#search_engine {
+  background-color: #635cff;
+  margin: 0;
+  display: flex;
+}
+
+#search_engine > * {
+  margin: auto;
+  display: inline-block;
+}
+
+#forfind {
+  font-size: 18px;
+  display: inline-block;
+  width: 500px;
+}
+#forfind > input {
+  font-size: 18px;
+  width: 480px;
+  height: 30px;
+  margin: 3px 5px;
+}
+
+#foryear {
+  display: grid;
+  width: 300px;
+  font-size: 14px;
+}
+
+#foryear > input {
+  font-size: 18px;
+  margin: 3px 5px 0;
+  width: 280px;
+  height: 30px;
+}
+
+
+
+.button {
+  margin: 5px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+
+
+#forfind .button {
+  width: 240px;
+  display: flex;
+  float: right;
+}
+
+
+#findall {
+  margin-top: 20px;
+  height: 50px;
+  min-width: 150px;
+}
+
+#body_container {
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.standart {
+  text-align: center;
+  margin: 15px 10px;
+  width: 300px;
+  min-width: 300px;
+  height: 600px;
+  border: 2px solid;
+  overflow: auto;
+  display: inline-block;
+  background-color: #636ac9;
+}
+
+.standart img {
+  height: 300px;
+  margin: 20px auto;
+}
+
+.standart > button {
+  margin: 5px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.standart > p, h2 {
+  margin: 10px 5px;
+  
+}
+.standart > iframe {
+  display: none;
+}
+
+#body_container {
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.full_screen {
+  background-color: #ebdae9;
+  text-align: center;
+  display: grid;
+  margin: 20px auto;
+  padding: 20px;
+  width: 60vw;
+}
+
+.full_screen > .info_muvie {
+  text-align: left;
+  width: 50vw;
+}
+
+.full_screen > * {
+  margin: auto;
+}
+
+.full_screen > iframe {
+  width: 50vw;
+  height: 28vw;
+}
+
+.full_screen > button {
+  display: none;
+}
+.full_screen a {
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px;
+ 
+}
+
+.full_screen > .info_muvie img {
+  float: left;
+  margin: 10px;
+}
+
+@media (max-width: 1000px){
+	#search_engine {
+  
+  display: grid;
+}
+}
